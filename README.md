@@ -1,6 +1,6 @@
 # RAGE ROOM - Plugin Roast Chat
 
-**Live Link:** PASTE YOUR RAILWAY URL HERE
+**Live Link:** https://web-production-27a94.up.railway.app
 **Built by:** phuz954 - I built this from scratch
 
 ### A note from me
