@@ -5,4 +5,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 ENV PORT=8080
 EXPOSE 8080
-CMD gunicorn --worker-class eventlet -w 1 -b 0.0.0.0:$PORT app:app
+CMD ["python", "app.py"]
