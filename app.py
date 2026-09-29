@@ -4,7 +4,7 @@ from flask_socketio import SocketIO, emit
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
-socketio = SocketIO(app, cors_allowed_origins="*", async_mode='gevent')
+socketio = SocketIO(app, cors_allowed_origins="*", async_mode='eventlet')
 
 ADMIN_KEY = os.environ['ADMIN_KEY']
 
